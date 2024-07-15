@@ -1,4 +1,4 @@
-package cc.unilock.reikafixes.mixin.electricraft;
+package cc.unilock.reikafixes.mixin.late.electricraft;
 
 import Reika.ElectriCraft.CableRenderer;
 import com.llamalad7.mixinextras.sugar.Local;

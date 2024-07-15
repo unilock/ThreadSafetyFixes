@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8.5-GTNH",
-  "package": "cc.unilock.reikafixes.mixin",
+  "package": "cc.unilock.reikafixes.mixin.late",
   "refmap": "mixins.reikafixes.refmap.json",
   "target": "@env(DEFAULT)",
   "compatibilityLevel": "JAVA_8"
