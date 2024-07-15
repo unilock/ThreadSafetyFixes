@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Set;
 
 @LateMixin
-public class ReikaFixesLateMixins implements ILateMixinLoader {
+public class LateMixinLoader implements ILateMixinLoader {
     @Override
     public String getMixinConfig() {
         return "mixins.reikafixes.late.json";
