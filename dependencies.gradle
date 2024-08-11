@@ -39,4 +39,5 @@ dependencies {
     devOnlyNonPublishable(rfg.deobf("curse.maven:electricraft-235594:4721198"))
     devOnlyNonPublishable(rfg.deobf("curse.maven:geostrata-235601:4721200"))
     devOnlyNonPublishable(rfg.deobf("curse.maven:rotarycraft-235596:4721191"))
+    devOnlyNonPublishable(rfg.deobf("curse.maven:immersive-engineering-231951:2299019"))
 }

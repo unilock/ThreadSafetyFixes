@@ -30,6 +30,9 @@ public class LateMixinLoader implements ILateMixinLoader {
         if (loadedMods.contains("RotaryCraft")) {
             mixins.add("rotarycraft.ISBRHMixins");
         }
+        if (loadedMods.contains("ImmersiveEngineering")) {
+            mixins.add("immersiveengineering.ClientUtilsMixin");
+        }
         return mixins;
     }
 }
