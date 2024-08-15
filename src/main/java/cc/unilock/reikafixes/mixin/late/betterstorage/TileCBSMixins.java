@@ -1,6 +1,5 @@
 package cc.unilock.reikafixes.mixin.late.betterstorage;
 
-import com.llamalad7.mixinextras.sugar.Local;
 import net.mcft.copy.betterstorage.tile.TileLocker;
 import net.mcft.copy.betterstorage.tile.TileReinforcedChest;
 import net.mcft.copy.betterstorage.tile.TileReinforcedLocker;
@@ -11,9 +10,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(value = {TileLocker.class, TileReinforcedChest.class, TileReinforcedLocker.class}, remap = false)
-public class TileMixins {
+public class TileCBSMixins {
     @Inject(method = "setBlockBoundsBasedOnState", at = @At("HEAD"), cancellable = true)
-    private void setBlockBoundsBasedOnState(CallbackInfo ci, @Local(argsOnly = true) IBlockAccess world, @Local(argsOnly = true, ordinal = 0) int x, @Local(argsOnly = true, ordinal = 1) int y, @Local(argsOnly = true, ordinal = 2) int z) {
+    private void setBlockBoundsBasedOnState(IBlockAccess world, int x, int y, int z, CallbackInfo ci) {
         if (world.getTileEntity(x, y, z) == null) {
             ci.cancel();
         }
