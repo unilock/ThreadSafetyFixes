@@ -30,11 +30,14 @@ public class LateMixinLoader implements ILateMixinLoader {
             mixins.add("geostrata.ISBRHMixins");
             mixins.add("geostrata.OreVeinRendererMixin");
         }
-        if (loadedMods.contains("RotaryCraft")) {
-            mixins.add("rotarycraft.ISBRHMixins");
-        }
         if (loadedMods.contains("ImmersiveEngineering")) {
             mixins.add("immersiveengineering.ClientUtilsMixin");
+        }
+        if (loadedMods.contains("Mariculture")) {
+            mixins.add("mariculture.RenderOysterMixin");
+        }
+        if (loadedMods.contains("RotaryCraft")) {
+            mixins.add("rotarycraft.ISBRHMixins");
         }
         return mixins;
     }

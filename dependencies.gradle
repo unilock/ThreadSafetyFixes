@@ -46,4 +46,5 @@ dependencies {
 
     // Miscellaneous
     devOnlyNonPublishable(project.files("libs/BetterStorage-1.7.10-0.13.1.128-deobf.jar"))
+    devOnlyNonPublishable(rfg.deobf(project.files("libs/Mariculture-Deluxe-1.7.10-1.2.5.0.jar")))
 }
