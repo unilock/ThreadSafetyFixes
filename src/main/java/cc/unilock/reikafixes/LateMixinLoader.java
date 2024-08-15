@@ -17,6 +17,9 @@ public class LateMixinLoader implements ILateMixinLoader {
     @Override
     public List<String> getMixins(Set<String> loadedMods) {
         List<String> mixins = new ArrayList<>();
+        if (loadedMods.contains("betterstorage")) {
+            mixins.add("betterstorage.TileMixins");
+        }
         if (loadedMods.contains("ChromatiCraft")) {
             mixins.add("chromaticraft.ISBRHMixins");
         }

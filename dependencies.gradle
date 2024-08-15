@@ -34,10 +34,16 @@
  * For more details, see https://docs.gradle.org/8.0.1/userguide/java_library_plugin.html#sec:java_library_configurations_graph
  */
 dependencies {
+    // Reika
     devOnlyNonPublishable(rfg.deobf("curse.maven:dragonapi-235591:4722480w"))
     devOnlyNonPublishable(rfg.deobf("curse.maven:chromaticraft-235590:4721192"))
     devOnlyNonPublishable(rfg.deobf("curse.maven:electricraft-235594:4721198"))
     devOnlyNonPublishable(rfg.deobf("curse.maven:geostrata-235601:4721200"))
     devOnlyNonPublishable(rfg.deobf("curse.maven:rotarycraft-235596:4721191"))
+
+    // Non-Reika
     devOnlyNonPublishable(rfg.deobf("curse.maven:immersive-engineering-231951:2299019"))
+
+    // Miscellaneous
+    devOnlyNonPublishable(project.files("libs/BetterStorage-1.7.10-0.13.1.128-deobf.jar"))
 }
