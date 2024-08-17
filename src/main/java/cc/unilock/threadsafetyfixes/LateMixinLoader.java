@@ -1,4 +1,4 @@
-package cc.unilock.reikafixes;
+package cc.unilock.threadsafetyfixes;
 
 import com.gtnewhorizon.gtnhmixins.ILateMixinLoader;
 import com.gtnewhorizon.gtnhmixins.LateMixin;
@@ -11,7 +11,7 @@ import java.util.Set;
 public class LateMixinLoader implements ILateMixinLoader {
     @Override
     public String getMixinConfig() {
-        return "mixins.reikafixes.late.json";
+        return "mixins.threadsafetyfixes.late.json";
     }
 
     @Override

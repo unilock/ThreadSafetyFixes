@@ -1,4 +1,4 @@
-package cc.unilock.reikafixes.mixin.late.immersiveengineering;
+package cc.unilock.threadsafetyfixes.mixin.late.immersiveengineering;
 
 import blusunrize.immersiveengineering.client.ClientUtils;
 import com.llamalad7.mixinextras.sugar.Local;

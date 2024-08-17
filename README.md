@@ -1,3 +1,3 @@
-# ReikaFixes
+# ThreadSafetyFixes
 
 Thread safety is real

@@ -1,4 +1,4 @@
-package cc.unilock.reikafixes.mixin.late.betterstorage;
+package cc.unilock.threadsafetyfixes.mixin.late.betterstorage;
 
 import net.mcft.copy.betterstorage.tile.TileLocker;
 import net.mcft.copy.betterstorage.tile.TileReinforcedChest;

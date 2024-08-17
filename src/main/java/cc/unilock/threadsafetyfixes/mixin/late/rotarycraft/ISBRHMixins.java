@@ -1,4 +1,4 @@
-package cc.unilock.reikafixes.mixin.late.rotarycraft;
+package cc.unilock.threadsafetyfixes.mixin.late.rotarycraft;
 
 import Reika.RotaryCraft.PipeBodyRenderer;
 import com.llamalad7.mixinextras.sugar.Local;

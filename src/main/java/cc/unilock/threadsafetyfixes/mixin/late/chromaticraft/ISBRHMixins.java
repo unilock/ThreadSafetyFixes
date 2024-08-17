@@ -1,4 +1,4 @@
-package cc.unilock.reikafixes.mixin.late.chromaticraft;
+package cc.unilock.threadsafetyfixes.mixin.late.chromaticraft;
 
 import Reika.ChromatiCraft.Render.ISBRH.*;
 import com.llamalad7.mixinextras.sugar.Local;

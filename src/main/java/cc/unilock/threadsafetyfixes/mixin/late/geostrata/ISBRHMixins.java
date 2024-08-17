@@ -1,4 +1,4 @@
-package cc.unilock.reikafixes.mixin.late.geostrata;
+package cc.unilock.threadsafetyfixes.mixin.late.geostrata;
 
 import Reika.GeoStrata.Rendering.GlowVineRenderer;
 import Reika.GeoStrata.Rendering.OreRenderer;

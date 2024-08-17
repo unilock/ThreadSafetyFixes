@@ -1,4 +1,4 @@
-package cc.unilock.reikafixes.mixin.late.mariculture;
+package cc.unilock.threadsafetyfixes.mixin.late.mariculture;
 
 import mariculture.core.render.RenderBase;
 import mariculture.core.render.RenderOyster;

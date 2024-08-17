@@ -6,7 +6,7 @@
 		"description": "Thread safety is real",
 		"version": "${modVersion}",
 		"mcversion": "${minecraftVersion}",
-		"url": "https://github.com/unilock/ReikaFixes",
+		"url": "https://github.com/unilock/ThreadSafetyFixes",
 		"updateUrl": "",
 		"authorList": ["unilock"],
 		"credits": "",
