@@ -13,7 +13,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class BlockTieredPlantMixin {
     @Inject(method = "setBlockBoundsBasedOnState", at = @At("HEAD"), cancellable = true)
     private void setBlockBoundsBasedOnState(CallbackInfo ci, @Local(argsOnly = true) IBlockAccess world, @Local(argsOnly = true, ordinal = 0) int x, @Local(argsOnly = true, ordinal = 1) int y, @Local(argsOnly = true, ordinal = 2) int z) {
-        if (world.getBlockMetadata(x, y, z) != BlockTieredPlant.TieredPlants.POD.ordinal()) {
+        if (world.getBlockMetadata(x, y, z) != 5) {
             ((Block) (Object) this).setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.0F, 1.0F);
             ci.cancel();
         }
