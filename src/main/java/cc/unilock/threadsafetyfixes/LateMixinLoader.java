@@ -21,6 +21,7 @@ public class LateMixinLoader implements ILateMixinLoader {
             mixins.add("betterstorage.TileCBSMixins");
         }
         if (loadedMods.contains("ChromatiCraft")) {
+            mixins.add("chromaticraft.BlockTieredPlantMixin");
             mixins.add("chromaticraft.ChromaticEventManagerMixin");
             mixins.add("chromaticraft.ISBRHMixins");
         }
