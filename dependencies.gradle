@@ -43,6 +43,7 @@ dependencies {
 
     // Non-Reika
     devOnlyNonPublishable(rfg.deobf("curse.maven:immersive-engineering-231951:2299019"))
+    devOnlyNonPublishable(rfg.deobf("curse.maven:mekanism-ce-399904:5346320"))
 
     // Miscellaneous
     devOnlyNonPublishable(project.files("libs/BetterStorage-1.7.10-0.13.1.128-deobf.jar"))

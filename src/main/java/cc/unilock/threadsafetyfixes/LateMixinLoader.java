@@ -38,6 +38,9 @@ public class LateMixinLoader implements ILateMixinLoader {
         if (loadedMods.contains("Mariculture")) {
             mixins.add("mariculture.RenderOysterMixin");
         }
+        if (loadedMods.contains("Mekanism")) {
+            mixins.add("mekanism.BlockMachineMixin");
+        }
         if (loadedMods.contains("RotaryCraft")) {
             mixins.add("rotarycraft.ISBRHMixins");
         }
