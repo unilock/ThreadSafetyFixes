@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-@Mixin(value = BlockTieredPlant.class, remap = false)
+@Mixin(value = BlockTieredPlant.class)
 public class BlockTieredPlantMixin {
     @Inject(method = "setBlockBoundsBasedOnState", at = @At("HEAD"), cancellable = true)
     private void setBlockBoundsBasedOnState(IBlockAccess world, int x, int y, int z, CallbackInfo ci) {

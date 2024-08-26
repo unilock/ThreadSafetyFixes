@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-@Mixin(value = {TileLocker.class, TileReinforcedChest.class, TileReinforcedLocker.class}, remap = false)
+@Mixin(value = {TileLocker.class, TileReinforcedChest.class, TileReinforcedLocker.class})
 public class TileCBSMixins {
     @Inject(method = "setBlockBoundsBasedOnState", at = @At("HEAD"), cancellable = true)
     private void setBlockBoundsBasedOnState(IBlockAccess world, int x, int y, int z, CallbackInfo ci) {
