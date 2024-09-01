@@ -23,6 +23,7 @@ public class LateMixinLoader implements ILateMixinLoader {
         if (loadedMods.contains("ChromatiCraft")) {
             mixins.add("chromaticraft.BlockTieredPlantMixin");
             mixins.add("chromaticraft.ChromaticEventManagerMixin");
+            mixins.add("chromaticraft.GlowTreeRendererMixin");
             mixins.add("chromaticraft.ISBRHMixins");
         }
         if (loadedMods.contains("ElectriCraft")) {
